@@ -1,0 +1,23 @@
+@media all and (max-width:992px) {
+    
+    #shop .product {
+    position: relative;
+    bottom: 0;
+    width: 38%;
+    height:  40vh;
+    }
+
+}
+@media all and (max-width:480px) {
+    
+     #shop .product {
+
+        width: 50%;
+        height: 20vh;  
+
+         }
+       
+}
+    
+    
+
