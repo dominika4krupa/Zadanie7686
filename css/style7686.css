@@ -11,6 +11,7 @@ body {background-color: #98fb98;
     transform: translatey(-50%);
     position: absolute;
 }
+
 #shop .product {
     width: 22%;
     height: 315px;
@@ -18,11 +19,8 @@ body {background-color: #98fb98;
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
-    transition: all 0.4s;
     text-align: center;
     margin: 10px;
-    
-    
 }
 
 .product .mask  {
@@ -35,28 +33,20 @@ body {background-color: #98fb98;
     font-size: 40px;
 }
  
-
 .product:hover .mask {
-    opacity: 0.5;
-    
-    
+    opacity: 1;
+    background-color:rgba(255,111,0, 0.5);
 }
+
 i {
     top: 50%;
     position: relative;
     transform: translateY(-50%);
-
   }  
-    
-
-
-
     
 #p1 {
     background-image: url(../img/product-1.jpg);
 }
-
-
 
 #p2 {
     background-image: url(../img/product-2.jpg); 
